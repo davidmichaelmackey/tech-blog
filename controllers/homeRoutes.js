@@ -1,43 +1,64 @@
-const express = require('express');
-const router = express.Router();
-const { User, Post } = require('../models');
+// import the express router
+const router = require('express').Router();
+
+// import the models folder
+const { User, Post, postHistory } = require('../models');
+
+// import the auth middleware
 const withAuth = require('../utils/auth');
 
-router.get('/', withAuth, async (req, res) => {
-  try {
-    const user = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: [ 'password' ] }
-    });
-
-    res.render('homepage', { user });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json(err);
-  }
+// get route handles the homepage
+router.get('/', async (req, res) => {
+  if (!req.session.logged_in) {
+    res.redirect('/login');
+    return;
+  };
+  const userData = await User.findOne({ where: { id: req.session.user_id } });
+  const user = userData.get({ plain: true });
+  res.render('homepage', {
+    loggedIn: req.session.logged_in,
+    user
+  });
 });
 
+// get request route for login
 router.get('/login', (req, res) => {
   if (req.session.logged_in) {
     res.redirect('/');
-  } else {
-    res.render('login');
-  }
+    return;
+  };
+  res.render('login');
 });
 
-router.get('/allposts', withAuth, async (req, res) => {
+// get all posts
+router.get('/allposts', async (req, res) => {
   try {
+    if (req.session.logged_in !== true) {
+      res.redirect('/login');
+      return;
+    }
     const postData = await Post.findAll();
-    const posts = postData.map(post => post.get({ plain: true }));
-
-    res.render('all-posts', { posts });
+    console.log(req.session.logged_in);
+    const posts = postData.map((post) => post.get({ plain: true }));
+    res.render('all-posts', {
+      posts, loggedIn: req.session.logged_in,
+    });
   } catch (err) {
-    console.error(err);
     res.status(500).json(err);
   }
 });
 
-router.get('/createpost', withAuth, (req, res) => {
-  res.render('createpost');
+// create post
+router.get('/createpost', (req, res) => {
+  if (req.session.logged_in !== true) {
+    res.redirect('login');
+    return;
+  }
+
+  res.render('createpost', {
+    loggedIn: req.session.logged_in,
+  });
 });
 
+// exports the router
 module.exports = router;
