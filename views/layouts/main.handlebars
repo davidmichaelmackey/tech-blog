@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC Tech Blog</title>
+    <script src="https://kit.fontawesome.com/1767b88e0c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid min-vh-100 bg-primary">
+      <div>
+        <header id="header">
+          <h2 class="h1 fs-1 p-4"><a href="./" class="text-decoration-none text-white"><i class="fa-solid fa-cubes me-4"></i>Tech Blog</a></h2>
+          <div class="flex d-flex justify-content-end navcontainer">
+            <!-- Conditionally rendering login or logout links -->
+            {{#if loggedIn}}
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary text">
+              <button class="navbar-toggler btn-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="/api/users/posts" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <div class="fs-5 text-white ">Dashboard<span><i class="ms-2 me-4 fa-solid fa-house"></i></span></div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/allposts" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <div class="fs-5 text-white ">All Posts<span><i class="ms-2 me-4 fa-solid fa-newspaper"></i></span></div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/createpost" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <div class="fs-5 text-white ">Create Post<span><i class="ms-2 me-4 fa-solid fa-square-plus"></i></span></div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="logout" href="/" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <div class="fs-5 text-white ">Logout<span><i class="ms-2 me-4 fa-solid fa-right-from-bracket"></i></span></div>
+                    </a>
+                    {{else}}
+                    <a href="/login" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <div class="fs-5 text-white ">Login<span><i class="ms-2 me-4 fa-solid fa-right-to-bracket"></i></span></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {{/if}}
+            </nav>
+          </div>
+        </header>
+        <main>
+          <!-- Rendering the sub layout -->
+          {{{ body }}}
+        </main>
+        <footer>
+        </footer>
+      </div>
+      <!-- Rendering script for logged in users only -->
+      {{#if loggedIn}}
+      <script src="/js/logout.js"></script>
+      {{/if}}
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

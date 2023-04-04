@@ -1,0 +1,20 @@
+<div class='container'>
+  <div class='text-white text-center' id="pdf">
+    <h2 class="h2 fs-1">Create post</h2>
+    <form class="form-control border-0 rounded-5 w-50 mx-auto mt-4">
+      <div class="mx-auto form-group form-control w-50 mt-4 bg-primary border-0 rounded-3">
+        <label for="exampleFormControlTextarea1" class="text-white fs-3 mb-2">Title</label>
+        <input class="form-control" id="post-title" rows="3"></input>
+      </div>
+      <div class="mx-auto form-group form-control w-50 mt-3 bg-primary border-0 rounded-3">
+        <label for="exampleFormControlTextarea1" class="text-white fs-3 mb-2">Description</label>
+        <textarea class="form-control" height="100" rows='6' id="post-description"></textarea>
+      </div>
+      <div class="createpostbuttons d-grid mx-auto m-4 w-50">
+        <button type="button" class="btn btn-primary btn-lg center-text" id="submit-button">Submit</button>
+      </div>
+  </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+<script src="./js/createpost.js"></script>
