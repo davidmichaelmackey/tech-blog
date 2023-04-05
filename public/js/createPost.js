@@ -19,27 +19,27 @@ const newFormHandler = async (event) => {
   const postDescription = description.value;
 
   // check if the title and description are not empty
-  // if (title.value && description.value) {
-  //   const response = await fetch("/api/posts", {
-  //     method: "POST",
-  //     body: JSON.stringify({
-  //       title: postTitle,
-  //       description: postDescription,
-  //     }),
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
+  if (title.value && description.value) {
+    const response = await fetch("/api/posts", {
+      method: "POST",
+      body: JSON.stringify({
+        title: postTitle,
+        description: postDescription,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
 
-  // check if the request went through
-  if (response.ok) {
-    console.log("Request successful!");
-    document.location.replace("/api/users/posts");
-    // if the request failed
-  } else {
-    console.log("Request failed. :(");
+    // check if the request went through
+    if (response.ok) {
+      console.log("Request successful!");
+      document.location.replace("/api/users/posts");
+      // if the request failed
+    } else {
+      console.log("Request failed. :(");
+    }
   }
-}
 };
 
 // add the event listener to the submit button
