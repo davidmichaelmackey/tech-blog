@@ -1,16 +1,9 @@
 # { Tech Blog }
 
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
----
-![Languages](https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge)
-![Top Language](https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge)
-![Code Size](https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog?color=E2F0CB&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog?color=B5EAD7&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge)
-
 ## Table of Contents
 
+- [License](#license)
+- [Badges](#badges)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,10 +13,25 @@
 - [Contribute](#contribute)
 - [Questions](#questions)
 
+## License
+
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
+
+## Badges
+
+![Languages](https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge)
+![Top Language](https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge)
+![Code Size](https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog?color=E2F0CB&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog?color=B5EAD7&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge)
+
 ## Description
+
 This is a CMS-style blog, where developers can publish their blog posts and comment on other developers' posts as well. This app was built completely from scratch and deployed to Heroku. It follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Installation
+
 Follow these commands to run the command-line application:  
 
     git clone repository
