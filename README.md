@@ -59,21 +59,21 @@ Follow these commands to run the command-line application:
 
 ## Toolset
 
-![.ENV](https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=ECD53F&labelColor=gray)<br>
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=000000&labelColor=gray)<br>
-![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=Font-Awesome&logoColor=528DD7&labelColor=gray)<br>
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=F05032&labelColor=gray)<br>
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=181717&labelColor=gray)<br>
-![Handlebars.js](https://img.shields.io/badge/Handlebars.js-E34F26?style=for-the-badge&logo=Handlebarsdotjs&logoColor=E34F26&labelColor=gray)<br>
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=430098&labelColor=gray)<br>
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=E34F26&labelColor=gray)<br>
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=F7DF1E&labelColor=gray)<br>
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=Markdown&logoColor=000000&labelColor=gray)<br>
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=4479A1&labelColor=gray)<br>
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=339933&labelColor=gray)<br>
-![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=Nodemon&logoColor=76D04B&labelColor=gray)<br>
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=NPM&logoColor=CB3837&labelColor=gray)<br>
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=52B0E7&labelColor=gray)<br>
+![.ENV](https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=ECD53F&labelColor=gray)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=000000&labelColor=gray)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=Font-Awesome&logoColor=528DD7&labelColor=gray)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=F05032&labelColor=gray)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=181717&labelColor=gray)
+![Handlebars.js](https://img.shields.io/badge/Handlebars.js-E34F26?style=for-the-badge&logo=Handlebarsdotjs&logoColor=E34F26&labelColor=gray)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=Heroku&logoColor=430098&labelColor=gray)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=E34F26&labelColor=gray)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=F7DF1E&labelColor=gray)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=Markdown&logoColor=000000&labelColor=gray)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=4479A1&labelColor=gray)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=339933&labelColor=gray)
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=Nodemon&logoColor=76D04B&labelColor=gray)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=NPM&logoColor=CB3837&labelColor=gray)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=52B0E7&labelColor=gray)
 ![Shields.io](https://img.shields.io/badge/Shields.io-000000?style=for-the-badge&logo=Shields.io&logoColor=000000&labelColor=gray)
 
 ## License
