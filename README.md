@@ -1,11 +1,7 @@
 # { Tech Blog }
 
-## License
-
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
-
-## Badges
-
+---
 ![Languages](https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge)
 ![Top Language](https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge)
 ![Code Size](https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge)
