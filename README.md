@@ -6,12 +6,12 @@
 
 ## Badges
 
-<img src="https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge" alt="Languages" />
-<img src="https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge" alt="Top Language" />
-<img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge" alt="Code Size" />
-<img src="https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
-<img src="https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
-<img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
+![Languages](https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge)
+![Top Language](https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge)
+![Code Size](https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog?color=E2F0CB&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog?color=B5EAD7&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge)
 
 ## Table of Contents
 
