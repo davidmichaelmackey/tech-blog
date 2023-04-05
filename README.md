@@ -1,4 +1,3 @@
-
 # { Tech Blog }
 
 ## Badges
@@ -82,9 +81,8 @@ Follow these commands to run the command-line application:
 ![Shields.io](https://img.shields.io/badge/Shields.io-000000?style=for-the-badge&logo=Shields.io&logoColor=000000&labelColor=gray)<br>
 
 ## License
-<p align = "center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
-</p>
+
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
 
 ## Contribute
 
