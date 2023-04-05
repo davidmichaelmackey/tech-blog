@@ -3,11 +3,11 @@
 ## Badges
 
 <p align="center">
-<img src="https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge" alt="Languages" />
-<img src="https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog?color=FFB7B2&style=for-the-badge" alt="Top Language" />
-<img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog?color=FFDAC1&style=for-the-badge" alt="Code Size" />
-<img src="https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
-<img src="https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
+<img src="https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog/?color=FF9AA2&style=for-the-badge" alt="Languages" />
+<img src="https://img.shields.io/github/languages/top/davidmichaelmackey/tech-blog/?color=FFB7B2&style=for-the-badge" alt="Top Language" />
+<img src="https://img.shields.io/github/languages/code-size/davidmichaelmackey/tech-blog/?color=FFDAC1&style=for-the-badge" alt="Code Size" />
+<img src="https://img.shields.io/github/repo-size/davidmichaelmackey/tech-blog/?color=E2F0CB&style=for-the-badge" alt="Repo Size" />
+<img src="https://img.shields.io/github/last-commit/davidmichaelmackey/tech-blog/?color=B5EAD7&style=for-the-badge" alt="Last Commit" />
 <img src="https://img.shields.io/github/followers/davidmichaelmackey?style=for-the-badge" alt="Followers" />
 </p>
 
@@ -40,8 +40,6 @@ Follow these commands to run the command-line application:
   ![Usage](./public/assets/images/screenshot2.png)
   ![Usage](./public/assets/images/screenshot3.png)
 
-    
-
 ## Credits
 
 :bust_in_silhouette: [David Michael Mackey](https://www.notion.so/davidmichaelmackey/David-Mackey-a59ce61a996840d6a933e3b135673467?pvs=4)<br>
@@ -49,16 +47,14 @@ Follow these commands to run the command-line application:
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
 
-
-
 ### Resources
 
-  [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
-  [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics)
-  [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
-  [Express Session](https://www.npmjs.com/package/express-session)
-  [Express Middleware](https://expressjs.com/en/guide/using-middleware.html)
-  [ESLint](https://eslint.org/docs/latest/use/configure/)
+  [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)<br>
+  [Sequelize](https://sequelize.org/docs/v6/core-concepts/model-basics)<br>
+  [Express Handlebars](https://www.npmjs.com/package/express-handlebars)<br>
+  [Express Session](https://www.npmjs.com/package/express-session)<br>
+  [Express Middleware](https://expressjs.com/en/guide/using-middleware.html)<br>
+  [ESLint](https://eslint.org/docs/latest/use/configure/)<br>
   [Prettier](https://prettier.io/docs/en/index.html)
 
 ## Toolset
@@ -78,7 +74,7 @@ Follow these commands to run the command-line application:
 ![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=Nodemon&logoColor=76D04B&labelColor=gray)<br>
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=NPM&logoColor=CB3837&labelColor=gray)<br>
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=52B0E7&labelColor=gray)<br>
-![Shields.io](https://img.shields.io/badge/Shields.io-000000?style=for-the-badge&logo=Shields.io&logoColor=000000&labelColor=gray)<br>
+![Shields.io](https://img.shields.io/badge/Shields.io-000000?style=for-the-badge&logo=Shields.io&logoColor=000000&labelColor=gray)
 
 ## License
 
