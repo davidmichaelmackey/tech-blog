@@ -33,8 +33,8 @@ This is a CMS-style blog, where developers can publish their blog posts and comm
 
 ## Links
 
-[GitHub Repository](https://github.com/davidmichaelmackey/tech-blog)
-[GitHub Deployment]()
+[GitHub Repository](https://github.com/davidmichaelmackey/tech-blog)<br>
+[GitHub Deployment](https://davidmichaelmackey.github.io/tech-blog/)<br>
 [Heroku Deployment](https://tech-blog-ok.herokuapp.com/)
 
 ## Installation
