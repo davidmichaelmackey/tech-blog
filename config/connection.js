@@ -4,6 +4,9 @@ const Sequelize = require('sequelize');
 // Import the dotenv package
 require('dotenv').config();
 
+// Set up our connection information
+const PORT = process.env.PORT || 3001;
+
 // Create connection to our database, pass in your MySQL information for username and password
 let sequelize;
 
