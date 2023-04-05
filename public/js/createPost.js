@@ -27,7 +27,7 @@ const newFormHandler = async (event) => {
         description: postDescription,
       }),
       headers: {
-        "Content-Type": "application/javascript",
+        "Content-Type": "application/json",
       },
     });
 
