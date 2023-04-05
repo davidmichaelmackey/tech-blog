@@ -5,6 +5,7 @@
 - [License](#license)
 - [Badges](#badges)
 - [Description](#description)
+- [Links](#links)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -29,6 +30,12 @@
 ## Description
 
 This is a CMS-style blog, where developers can publish their blog posts and comment on other developers' posts as well. This app was built completely from scratch and deployed to Heroku. It follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
+## Links
+
+[GitHub Repository](https://github.com/davidmichaelmackey/tech-blog)
+[GitHub Deployment]()
+[Heroku Deployment](https://tech-blog-ok.herokuapp.com/)
 
 ## Installation
 
