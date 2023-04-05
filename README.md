@@ -1,5 +1,9 @@
 # { Tech Blog }
 
+## License
+
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
+
 ## Badges
 
 <img src="https://img.shields.io/github/languages/count/davidmichaelmackey/tech-blog?color=FF9AA2&style=for-the-badge" alt="Languages" />
@@ -17,7 +21,6 @@
 - [Credits](#credits)
 - [Resources](#resources)
 - [Toolset](#toolset)
-- [License](#license)
 - [Contribute](#contribute)
 - [Questions](#questions)
 
@@ -73,10 +76,6 @@ Follow these commands to run the command-line application:
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=NPM&logoColor=CB3837&labelColor=gray)
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=52B0E7&labelColor=gray)
 ![Shields.io](https://img.shields.io/badge/Shields.io-000000?style=for-the-badge&logo=Shields.io&logoColor=000000&labelColor=gray)
-
-## License
-
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-A31F34?style=for-the-badge" alt="MIT License"/></a>
 
 ## Contribute
 
